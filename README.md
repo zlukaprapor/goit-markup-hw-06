@@ -1,3 +1,4 @@
 # goit-markup-hw-06
-GoiT
+GoIT Домашка
+Домашнее задание
 https://zlukaprapor.github.io/goit-markup-hw-06/
