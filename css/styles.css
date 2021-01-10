@@ -754,6 +754,7 @@ a {
   display: flex;
   width: 528px;
   height: 581px;
+  padding: 40px;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -777,4 +778,31 @@ a {
 }
 .modal-svg {
   height: 30px;
+}
+.modal-h {
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.modal-form-fild {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.modal-form-fild label {
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: 0.01em;
+
+  color: #757575;
 }
