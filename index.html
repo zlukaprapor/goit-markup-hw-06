@@ -276,16 +276,16 @@
 </main>
 <footer class="footer">
   <div class="container">
-    <ul class="footer-ul">
-      <li class="futer-adress-li">
+    <div class="footer-ul">
+      <div class="futer-adress-li">
         <a lang="en" href="./index.html" class="container-logo "><span class="logo-web">Web</span>Studio</a>
         <div class="footer-div">
           <adress class="foot-adress adress-item">г. Киев, пр-т Леси Украинки, 26</adress>
           <a class="foot-link adress-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a class="foot-link adress-item" href="tel:+380961111111">+38 096 111 11 11</a>
         </div>
-      </li>
-      <li class="footer-li">
+      </div>
+      <div class="footer-li">
         <h4 class="footer-h">присоединяйтесь</h4>
         <a href="#" class="footer-button">
           <svg class="footer-svg">
@@ -307,8 +307,19 @@
             <use href="./images/sprite.svg#icon-linkedin"></use>
           </svg>
         </a>
-      </li>
-    </ul>
+      </div>
+      <form class="form-footer">
+        <h4 class="form-h">Подпишитесь на рассылку</h4>
+        <div class="form-div" >
+          <input class="form-input" type="email" name="email" id="" placeholder="E-mail">
+          <button class="form-button">Подписаться
+            <svg class="form-svg">
+              <use href="./images/sprite.svg#icon-flai"></use>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
   </div>
 </footer>
 <div class="backdrop is-hidden" data-modal>
